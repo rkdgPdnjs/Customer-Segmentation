@@ -19,8 +19,8 @@ I also included tensorboard plotting to see the performance of my model even tho
 
 # How to use 
 
-1. Clone this repository and use the model.h% (saved model), scaler.pkl, encoder.pkl and ohe.pkl to deploy on your dataset
-2. You can also use the deploy_heart.py to run streamlit
+1. Clone this repository and use the model.h5 (saved model), scaler.pkl, encoder.pkl and ohe.pkl to deploy on your dataset
+2. You can also use the customer_segmentation_deploy.py to run predict new dataset
 3. Run tensorboard at the end of training to see how well the model perform via conda prompt. Activate the desired environment and proper working directory.
 4. Type "tensorboard --logdir "the log path"
 5. Paste the local network link into your browser and it will automatically redirected to tensorboard local host and done! Tensorboard is now can be analyzed.
